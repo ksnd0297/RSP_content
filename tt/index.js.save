@@ -1,0 +1,4 @@
+var mpu6050 = require('mpu6050');
+
+var mpu = new mpu6050();
+mpu.initialize();
